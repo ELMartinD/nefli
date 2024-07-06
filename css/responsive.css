@@ -62,6 +62,77 @@
 
 }
 
+@media (max-width: 1000px) {
+    .cartas {
+        display: flex;
+        margin: 1% 1% 0% 0%;
+        overflow: auto;
+        width: 850px;
+        height: 160px;
+    }
+
+    .cards {
+        display: flex;
+        margin: 1% 1% 0% 0%;
+        overflow: auto;
+        width: 850px;
+        height: 160px;
+    }
+
+    .transparencia {
+        width: 100%;
+        height: 550px;
+        background: linear-gradient(0deg, #141414, transparent);
+        position: absolute;
+        top: 0%;
+    }
+
+    .lista {
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        width: 850px;
+        height: 100px;
+    }
+
+    .footerinfo {
+        width: 100%;
+    }
+
+    ul {
+        padding: 0% 8% 1% 0%;
+        font-family: "nefli";
+        color: grey;
+        list-style: none;
+        font-size: 13px;
+    }
+
+    .navseccion1 {
+        display: flex;
+        width: 70%;
+        align-items: center;
+    }
+
+    .navseccion2 {
+        display: flex;
+        width: 20%;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left: 15%;
+    }
+
+    .twd {
+        width: 400px;
+        z-index: 1;
+    }
+
+    .nmostrar{
+        display: none;
+    }
+
+
+}
+
 @media (max-width: 500px) {
 
     .series1, .series2, .series3, .series4, .series5, .series6 {
@@ -214,4 +285,5 @@
         display: none;
     }
 }
+
     
