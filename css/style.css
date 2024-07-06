@@ -109,6 +109,11 @@ body{
     z-index: 1;
 }
 
+.botonrep:hover{
+    cursor: pointer;
+    background-color: rgb(181, 181, 181);
+}
+
 .botonesinicio{
     width: 400px;
     display: flex;
@@ -128,6 +133,11 @@ body{
     background-color: rgba(109, 109, 110, 0.4);
     border: none;
     z-index: 1;
+}
+
+.botonindo:hover {
+    cursor: pointer;
+    background-color: rgb(82 82 82 / 40%);
 }
 
 .nsdhpt {
