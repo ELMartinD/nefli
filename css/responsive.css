@@ -64,6 +64,10 @@
 
 @media (max-width: 500px) {
 
+    .series1, .series2, .series3, .series4, .series5, .series6 {
+        margin: 0% 4% 0% 0%;
+    }
+
     .navseccion1 {
         display: flex;
         width: 90%;
